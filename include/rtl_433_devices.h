@@ -255,10 +255,12 @@
  * Subset of devices that I have access to and have tested with
  */
 #  define DEVICES         \
+    DECL(ambientweather_wh31e)       \
+    DECL(cavius)                     \
     DECL(fineoffset_ws80)            \
 /* Add new personal decoders here. */
 #  define NUMOF_OOK_DEVICES 0
-#  define NUMOF_FSK_DEVICES 1
+#  define NUMOF_FSK_DEVICES 3
 #endif
 
 #define DECL(name) extern r_device name;
