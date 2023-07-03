@@ -327,7 +327,9 @@ void rtlSetup() {
     // end of fragement
 
 #else
-    memcpy(&cfg->devices[0], &fineoffset_ws80, sizeof(r_device));
+    memcpy(&cfg->devices[0], &ambientweather_wh31e, sizeof(r_device));
+    memcpy(&cfg->devices[1], &cavius, sizeof(r_device));
+    memcpy(&cfg->devices[2], &fineoffset_ws80, sizeof(r_device));
 #endif
 
 #ifdef RTL_FLEX
