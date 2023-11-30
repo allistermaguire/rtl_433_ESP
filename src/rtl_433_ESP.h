@@ -93,7 +93,7 @@
 #  define MINIMUM_SIGNAL_LENGTH 40000
 #else
 #  define MINIMUM_PULSE_LENGTH  30
-#  define MINIMUM_SIGNAL_LENGTH 10000
+#  define MINIMUM_SIGNAL_LENGTH 5000
 #endif
 
 // SX127X OOK Reception Floor
