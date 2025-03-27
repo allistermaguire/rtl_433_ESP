@@ -278,12 +278,12 @@
 /**
  * Subset of devices that I have access to and have tested with
  */
-#  define DEVICES         \
-    DECL(acurite_986)     \
-    DECL(skylink_motion)  \
-    DECL(prologue)        \
-    DECL(philips_aj3650)  \
-    DECL(fineoffset_WH51) \
+#  define DEVICES                    \
+    DECL(ambientweather_wh31e)       \
+    DECL(cavius)                     \
+    DECL(fineoffset_ws80)            \
+    DECL(fineoffset_WH51)            \
+    DECL(fineoffset_ws90)            \
 /* Add new personal decoders here. */
 #  define NUMOFDEVICES 5
 #endif
