@@ -286,6 +286,8 @@
     DECL(fineoffset_ws90)            \
 /* Add new personal decoders here. */
 #  define NUMOFDEVICES 5
+#  define NUMOF_OOK_DEVICES 0
+#  define NUMOF_FSK_DEVICES 5
 #endif
 
 #define DECL(name) extern r_device name;
