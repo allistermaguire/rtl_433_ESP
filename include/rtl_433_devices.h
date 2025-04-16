@@ -297,7 +297,7 @@
     DECL(cavius)                     \
     DECL(fineoffset_ws80)            \
     DECL(fineoffset_WH51)            \
-    DECL(fineoffset_ws90)            \
+    DECL(fineoffset_ws85)            \
 /* Add new personal decoders here. */
 #  define NUMOFDEVICES 5
 #  define NUMOF_OOK_DEVICES 0
