@@ -357,7 +357,7 @@ void rtlSetup() {
     memcpy(&cfg->devices[1], &cavius, sizeof(r_device));
     memcpy(&cfg->devices[2], &fineoffset_ws80, sizeof(r_device));
     memcpy(&cfg->devices[3], &fineoffset_WH51, sizeof(r_device));
-    memcpy(&cfg->devices[4], &fineoffset_ws90, sizeof(r_device));
+    memcpy(&cfg->devices[4], &fineoffset_ws85, sizeof(r_device));
 #endif
 
 #ifdef RTL_FLEX
