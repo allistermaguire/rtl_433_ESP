@@ -293,8 +293,8 @@
  * Subset of devices that I have access to and have tested with
  */
 #  define DEVICES                    \
-    DECL(ambientweather_wh31e)       \
     DECL(cavius)                     \
+    DECL(fineoffset_WH25)            \
     DECL(fineoffset_ws80)            \
     DECL(fineoffset_WH51)            \
     DECL(fineoffset_ws85)            \
